@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow", sans-serif; }
+
+html,
+body {
+  width: 1440px;
+  font-size: 18px; }
+
+ul {
+  list-style-type: none; }
+
+a {
+  text-decoration: none;
+  color: #5a636c; }
+
+.header {
+  display: grid;
+  min-height: 80vh;
+  min-width: 100%;
+  background: url(./images/desktop/image-header.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+  .header .navbar {
+    height: 6rem;
+    padding: 0 2rem;
+    margin-bottom: 2rem; }
+    .header .navbar ul {
+      margin-right: 3rem;
+      display: flex;
+      justify-content: space-around; }
+    .header .navbar li {
+      width: 140px;
+      max-height: 100px; }
+    .header .navbar a {
+      padding: 0.8rem 1.5rem;
+      margin: 0 0.5rem;
+      color: white;
+      border: 1px solid transparent; }
+      .header .navbar a:hover {
+        border-radius: 50px;
+        background-color: #fff;
+        color: #000;
+        text-transform: uppercase;
+        font-family: "Fraunces", serif;
+        transition: 0.3s background ease; }
+    .header .navbar.navbar.flex {
+      justify-content: space-between; }
+  .header h1 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    letter-spacing: 0.5rem;
+    font-size: 3rem; }
+  .header .arrow-down {
+    text-align: center;
+    margin-top: 6rem; }
+
+.showcase {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: minmax(70vh, auto); }
+  .showcase .card {
+    height: 100%;
+    width: 70ch;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: justify;
+    line-height: 1.6rem; }
+    .showcase .card h2 {
+      margin-bottom: 2rem;
+      font-family: "Fraunces", serif;
+      font-weight: 900;
+      font-size: 2.5rem;
+      color: #23303e;
+      padding: 0 4rem 0 7rem;
+      line-height: 3rem; }
+    .showcase .card p {
+      margin-bottom: 2rem;
+      color: #818498;
+      padding: 0 8rem 0 7rem; }
+    .showcase .card a {
+      color: #23303e;
+      font-family: "Fraunces", serif;
+      font-weight: 900;
+      text-transform: uppercase;
+      text-decoration: underline 0.3rem #fad400;
+      transition: all 0.4s ease-in-out;
+      padding: 0 0 0 7rem; }
+      .showcase .card a:hover {
+        text-decoration: underline 0.3rem #fab700;
+        text-underline-position: above;
+        transition: all 0.4s ease-in-out; }
+  .showcase .transform-photo {
+    background: url(./images/desktop/image-transform.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top; }
+  .showcase .standout-photo {
+    background: url(./images/desktop/image-stand-out.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top; }
+  .showcase .graphic-design {
+    background: url(./images/desktop/image-graphic-design.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    line-height: 1.5rem; }
+    .showcase .graphic-design .text {
+      width: 38ch;
+      flex-basis: 30%; }
+    .showcase .graphic-design h2 {
+      font-family: "Fraunces", serif;
+      margin-bottom: 1.3rem;
+      font-weight: 900;
+      color: #25564b; }
+    .showcase .graphic-design p {
+      font-family: "Barlow", sans-serif;
+      color: #25564b; }
+  .showcase .photography {
+    background: url(./images/desktop/image-photography.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    line-height: 1.5rem; }
+    .showcase .photography .text {
+      width: 40ch;
+      flex-basis: 30%; }
+    .showcase .photography h2 {
+      font-family: "Fraunces", serif;
+      margin-bottom: 1.3rem;
+      font-weight: 900;
+      color: #19536b; }
+    .showcase .photography p {
+      font-family: "Barlow", sans-serif;
+      color: #19536b; }
+
+.standout.card a {
+  text-decoration: underline 0.3rem #fe7867; }
+  .standout.card a:hover {
+    text-decoration: underline 0.3rem #fe4c34; }
+
+.wrapper {
+  min-height: 70vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  grid-template-rows: 35% 45%; }
+  .wrapper h2 {
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #a7abae;
+    font-size: 1.2rem; }
+  .wrapper .testimonials {
+    max-width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #23303e; }
+    .wrapper .testimonials .client {
+      width: 35ch;
+      margin: 0 1rem; }
+      .wrapper .testimonials .client img {
+        border-radius: 50%;
+        width: 20%;
+        height: auto; }
+      .wrapper .testimonials .client p:nth-child(2) {
+        margin: 3rem 0; }
+      .wrapper .testimonials .client h3 {
+        font-family: "Fraunces", serif; }
+      .wrapper .testimonials .client p:nth-child(4) {
+        margin-top: 0.5rem;
+        color: #a7abae;
+        font-size: 0.8rem; }
+
+.gallery {
+  width: 100%;
+  display: flex; }
+  .gallery img {
+    max-width: 25%; }
+
+.footer {
+  height: 40vh;
+  background: #5eedd5;
+  display: grid;
+  place-items: center;
+  grid-template-rows: 40% 10% 45%;
+  list-style: none; }
+  .footer .logo {
+    width: 10%;
+    margin-top: 2rem; }
+  .footer .footer_nav {
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .footer .footer_nav a {
+      color: #3b786b; }
+    .footer .footer_nav a:hover {
+      color: white;
+      transition: 0.3s; }
+  .footer .socials {
+    width: 15%; }
+    .footer .socials ul {
+      display: flex;
+      justify-content: space-around; }
+      .footer .socials ul i {
+        color: #36635a; }
+      .footer .socials ul i:hover {
+        color: white;
+        transition: 0.3s; }
+
+.socials li a:hover {
+  color: white; }
+
+.attribution {
+  font-size: 11px;
+  text-align: center; }
+  .attribution a {
+    color: #23303e; }
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/*# sourceMappingURL=style.css.map */
