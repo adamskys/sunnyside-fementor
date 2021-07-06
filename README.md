@@ -28,8 +28,7 @@ Desktop version is done. Mobile not finished yet.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Sunnyside Landing Page](https://adamskys.github.io/sunnyside-fementor/)
 
 ## My process
 
