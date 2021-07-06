@@ -19,7 +19,7 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 
 ## Overview
 
-Desktop version is done. Mobile not finished yet.
+Desktop version is done for 1440px screen. Mobile not finished yet.
 
 ### Screenshot
 
