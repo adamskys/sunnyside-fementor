@@ -26,7 +26,6 @@ html,
 body {
   width: 1440px;
   font-size: 18px;
-
 }
 
 ul {
@@ -39,7 +38,6 @@ a {
 }
 
 .header {
-  display: grid;
   min-height: 80vh;
   min-width: 100%;
   background: url(./images/desktop/image-header.jpg);
@@ -88,6 +86,7 @@ a {
   }
 
   h1 {
+    margin-top: 1rem;
     color: $white;
     text-align: center;
     text-transform: uppercase;
